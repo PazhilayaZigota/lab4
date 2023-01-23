@@ -1,0 +1,8 @@
+.main_header{
+    justify-content: space-between;
+    max-width: 100%;
+    border: 1px solid black;
+    max-height: 40px;
+    align-items: center;
+    padding-inline: 10px;
+}

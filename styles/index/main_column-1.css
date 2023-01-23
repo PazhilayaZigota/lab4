@@ -1,0 +1,48 @@
+.main_column-1{
+    flex-direction: column;
+    width: 35%;
+    border: 1px solid black;
+}
+
+.ava{
+    padding:20px;
+    width: 80%;
+    align-self: center;
+    height: 80%;
+}
+
+.under_ava{
+    justify-content: space-around;
+}
+
+.under_ava button{
+    height: 40px;
+    margin: 10px;
+}
+
+.news {
+    width: 70%;
+}
+
+.friends{
+    padding: 10px;
+    background-color: #e0faff;
+    margin-inline: 10px;
+}
+
+.friends_ava{
+    justify-content: space-between;
+    margin-inline: 10px;
+    margin-bottom: 5px;
+}
+
+.friends_ava a img{
+    width: 80%;
+    border-radius: 50px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.friends_ava a img:hover{
+    box-shadow: 0 0 7px #000000;
+}
+

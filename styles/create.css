@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+}
+
+.block {
+    flex-direction: column;
+    border: 1px solid rgb(255, 180, 67);
+    padding: 20px 30px 20px 30px;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+input{
+    max-width: 200px;
+}
+.top{
+    text-align: center;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.submit_input{
+    margin-top: 10px;
+    align-self: center;
+}
+.reg{
+    margin-top: 10px;
+    align-self: center;
+}
+.question{
+    align-self: center;
+}
+.line{
+    border-top:#5d5e60 2px solid;
+    margin: 0 auto;
+    width: 100%;
+}
+.hometown{
+    margin-bottom: 10px;
+}

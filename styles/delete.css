@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+
+.block {
+    flex-direction: column;
+    border: 1px solid rgb(255, 180, 67);
+    padding: 20px 30px 20px 30px;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+input{
+    max-width: 200px;
+}
+
+.top{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn{
+    padding-top: 10px;
+    justify-content: space-around;
+}

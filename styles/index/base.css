@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1300px;
+}
+
+.column_addition{
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.center{
+    align-self: center;
+}
+
+.col-6{
+    flex: 50% 0;
+}
+
+.col-4{
+    flex: 33.3% 0;
+}
+
+.col-3{
+    flex: 25% 0;
+}

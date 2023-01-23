@@ -1,0 +1,28 @@
+.main_menu{
+    list-style-type: none;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 20%;
+}
+
+.main_nav{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_menu a{
+    padding: 10px 20px 10px 20px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+.main_menu a:hover {
+    text-decoration: none;
+    background-color: #e0faff;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
+}
